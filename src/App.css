@@ -1,0 +1,166 @@
+.bg-color {
+  background-color: #1f242d;
+}
+.second-bg {
+  background-color: #323946;
+}
+.nav-item a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 0 0 70px;
+}
+
+.nav-item a:hover {
+  color: #0ef;
+}
+.home-padding {
+  padding: 110px 0 90px 0;
+}
+.txt-size {
+  font-size: 110px;
+}
+.me-color {
+  color: #0ef;
+}
+.text-align {
+  text-align: justify;
+}
+.about-padding {
+  padding: 180px 0;
+}
+.style-logo {
+  font-size: 100px;
+}
+.Boot-color {
+  color: rgb(157, 8, 177);
+}
+.React-color {
+  color: rgb(11, 156, 167);
+}
+.Git-color {
+  color: gray;
+}
+.skill-p {
+  padding: 115px 0;
+}
+.project-p {
+  padding: 150px 0;
+}
+
+.project-img img {
+  width: 100%;
+  height: 240px;
+}
+.title-size {
+  font-size: 34px;
+}
+.pc-img img{
+  width: 100%;
+}
+.white-toggle-button {
+  color: #fff; /* Sets the color of the button to white */
+}
+
+
+@media (max-width: 576px) {
+  .pc-img img{
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+  .nav-item a {
+    margin: 0;
+  }
+  .title-size {
+    font-size: 21px;
+  }
+  .home-padding {
+    padding: 110px 0 50px 0;
+  }
+  .about-padding {
+    padding: 50px 0;
+  }
+  .txt-size {
+    font-size: 59px;
+  }
+  .skill-p {
+    padding: 50px 0;
+  }
+  .project-p {
+    padding: 50px 0;
+  }
+  .project-img img {
+    width: 100%;
+    height: 165px;
+  }
+  .project-img {
+    padding: 15px 5px;
+  }
+}
+@media (min-width: 577px) and (max-width: 768px) {
+  .pc-img img{
+    width: 100%;
+    height: 300px;
+    margin: 15px 0 0 0;
+  }
+  .nav-item a {
+    margin: 0;
+  }
+  .title-size {
+    font-size: 35px;
+  }
+  .home-padding {
+    padding: 110px 0 80px 0;
+  }
+  .about-padding {
+    padding: 50px 0;
+  }
+  .txt-size {
+    font-size: 110px;
+  }
+  .skill-p {
+    padding: 50px 0;
+  }
+  .project-p {
+    padding: 50px 0;
+  }
+  .project-img img {
+    width: 100%;
+    height: 200px;
+    padding: 20px 10px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .pc-img img{
+    width: 100%;
+    height: 300px;
+    margin: 20px 0 0 0;
+  }
+  .nav-item a {
+    margin: 0;
+  }
+  .title-size {
+    font-size: 40px;
+  }
+  .home-padding {
+    padding: 110px 0 50px 0;
+  }
+  .about-padding {
+    padding: 50px 0;
+  }
+  .txt-size {
+    font-size: 120px;
+  }
+  .skill-p {
+    padding: 50px 0;
+  }
+  .project-p {
+    padding: 50px 0;
+  }
+  .project-img img {
+    width: 100%;
+    height: 240px;
+    padding: 26px 10px;
+  }
+}
