@@ -50,7 +50,11 @@
 
 .project-img img {
   width: 100%;
-  height: 240px;
+  height: 280px;
+}
+
+.project-img{
+  padding: 10px 0;
 }
 .title-size {
   font-size: 34px;
@@ -94,7 +98,7 @@
     height: 165px;
   }
   .project-img {
-    padding: 15px 5px;
+    padding: 15px;
   }
 }
 @media (min-width: 577px) and (max-width: 768px) {
@@ -127,7 +131,9 @@
   .project-img img {
     width: 100%;
     height: 200px;
-    padding: 20px 10px;
+  }
+  .project-img{
+    padding: 15px 0;
   }
 }
 
@@ -160,7 +166,9 @@
   }
   .project-img img {
     width: 100%;
-    height: 240px;
-    padding: 26px 10px;
+    height: 220px;
+  }
+  .project-img{
+    padding: 15px 0;
   }
 }

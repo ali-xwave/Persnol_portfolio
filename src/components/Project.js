@@ -3,6 +3,7 @@ import "./Home.css";
 import img1 from "../assets/way-img.png";
 import img2 from "../assets/UX-img.png";
 import img3 from "../assets/Food--img.png";
+import img4 from "../assets/portfolio.png";
 import { Link } from "react-router-dom";
 const Project = () => {
   return (
@@ -15,9 +16,8 @@ const Project = () => {
                 Latest<span className="me-color px-2">Projects</span>
               </h1>
             </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-6 col-lg-6">
               <div className="project-img">
-                {/* <img src={img1} width="350px" height="220px" /> */}
                 <div class="con">
                   <img src={img1} width="350px" height="220px" />
                   <div class="overlay">
@@ -33,7 +33,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-6 col-lg-6">
               <div className="project-img">
                 <div class="con">
                   <img src={img2} width="350px" height="220px" />
@@ -50,14 +50,31 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-4">
+            <div className="col-12 col-md-6 col-lg-6">
               <div className="project-img">
                 <div class="con">
                   <img src={img3} width="350px" height="220px" />
                   <div class="overlay">
                     <div class="text">
-                      <Link
+                      <Link   
                         to="https://food-delivery-landing-page-olive.vercel.app/"
+                        className="text-white text-decoration-none fw-bold"
+                      >
+                        Visit Site
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-6">
+              <div className="project-img">
+                <div class="con">
+                  <img src={img4} width="350px" height="220px" />
+                  <div class="overlay">
+                    <div class="text">
+                      <Link
+                        to="https://portfolio-in5b9ceck-ali-xwave.vercel.app/"
                         className="text-white text-decoration-none fw-bold"
                       >
                         Visit Site
