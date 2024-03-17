@@ -75,7 +75,7 @@ const Project = () => {
                   <div class="overlay">
                     <div class="text">
                       <Link
-                        to="https://portfolio-in5b9ceck-ali-xwave.vercel.app/"
+                        to="https://portfolio-lemon-zeta-14.vercel.app/"
                         className="text-white text-decoration-none fw-bold"
                       >
                         Visit Site
