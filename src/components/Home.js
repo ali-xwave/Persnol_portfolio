@@ -1,13 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Home.css";
-import img from "../assets/front-end-developer.jpg";
 import { Link } from "react-router-dom";
+import useAosInit from "./UseAosInit";
 const Home = () => {
+  useAosInit();
   return (
     <>
       <a name="Home">
         <div className="bg-color text-white home-padding">
-          <div className="container">
+          <div className="container" data-aos="fade-right">
             <div className="row">
               <div className="col-12 col-md-12 text-center">
                 <span className="fs-1 fw-bold ">
@@ -29,9 +30,14 @@ const Home = () => {
                     <i className="fa-brands fa-linkedin fs-1 px-4"></i>
                   </Link>
                 </div>
-                <button className="bg-primary rounded-pill border-0 px-3 py-2 text-white fs-5">
-                  Download CV
-                </button>
+                <div className="my-2">
+                  <Link
+                    to="https://drive.google.com/file/d/1SFZuJaN6OF5HTWgkmHQTPpao9g_tGyuU/view?usp=sharing"
+                    className="bg-primary text-decoration-none rounded-pill border-0 px-3 pt-1 pb-2 text-white fs-5"
+                  >
+                    Download CV
+                  </Link>
+                </div>
               </div>
             </div>
           </div>

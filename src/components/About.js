@@ -1,18 +1,20 @@
 import React from "react";
 import img from "../assets/PC.jpg";
+import useAosInit from "./UseAosInit";
 const About = () => {
+  useAosInit()
   return (
     <>
       <div className="second-bg">
         <a name="About">
           <div className="container about-padding">
             <div className="row">
-              <div className="col-12 col-md-5">
+              <div className="col-12 col-md-5" data-aos="fade-right">
                 <div className="pc-img">
                   <img src={img}  />
                 </div>
               </div>
-              <div className="col-12 col-md-7">
+              <div className="col-12 col-md-7" data-aos="fade-left">
                 <div className="text-white">
                   <h1>
                     About <span className="me-color">Me</span>

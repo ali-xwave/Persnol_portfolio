@@ -6,7 +6,9 @@ import img3 from "../assets/Food--img.png";
 import img4 from "../assets/portfolio.png";
 import img5 from "../assets/web.jpg";
 import { Link } from "react-router-dom";
+import useAosInit from "./UseAosInit";
 const Project = () => {
+  useAosInit();
   return (
     <div className="second-bg">
       <a name="project">
@@ -17,7 +19,7 @@ const Project = () => {
                 Latest<span className="me-color px-2">Projects</span>
               </h1>
             </div>
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6" data-aos="zoom-in">
               <div className="project-img">
                 <div class="con">
                   <img src={img1} width="350px" height="220px" />
@@ -34,7 +36,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6" data-aos="zoom-in">
               <div className="project-img">
                 <div class="con">
                   <img src={img2} width="350px" height="220px" />
@@ -51,7 +53,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-right">
               <div className="project-img">
                 <div class="con">
                   <img src={img3} width="350px" height="220px" />
@@ -68,7 +70,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-left">
               <div className="project-img">
                 <div class="con">
                   <img src={img4} width="350px" height="220px" />
@@ -85,7 +87,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="col-12 col-md-6 col-lg-6">
+            <div className="col-12 col-md-6 col-lg-6" data-aos="fade-up-right">
               <div className="project-img">
                 <div class="con">
                   <img src={img5} width="350px" height="220px" />
